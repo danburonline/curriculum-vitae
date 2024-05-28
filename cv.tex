@@ -1,47 +1,24 @@
-\documentclass[12pt,a4paper,sans]{moderncv}
-\moderncvstyle{casual}
-\moderncvcolor{blue}
-\usepackage[scale=0.85]{geometry}
-\usepackage{lmodern}
-\usepackage{microtype}
+\documentclass{./template/cv}
 
-% Personal data
-\firstname{Daniel}
-\familyname{Burger}
-\title{Curriculum Vitae}
-\email{public@danielburger.online}
-\homepage{www.danielburger.online}
+\cvname{Daniel Burger, M.Sc.}
+\email{mail@danielburger.online}
+\website{https://danielburger.online}
+\linkedin{https://linkedin.com/in/danburonline}
 
 \begin{document}
 
-\makecvtitle
-
-\section{Education}
-\cventry{Year--Year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
-
-\section{Experience}
-\subsection{Vocational}
-\cventry{Year--Year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.\newline{}%
-  Detailed achievements:
-  \begin{itemize}%
-    \item Achievement 1;
-    \item Achievement 2, with sub-achievements:
-          \begin{itemize}%
-            \item Sub-achievement (a);
-            \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
-                  \begin{itemize}
-                    \item Sub-sub-achievement i;
-                    \item Sub-sub-achievement ii;
-                    \item Sub-sub-achievement iii;
-                  \end{itemize}
-            \item Sub-achievement (c);
-          \end{itemize}
-    \item Achievement 3.
-  \end{itemize}}
-\cventry{Year--Year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
-
-\section{Languages}
-\cvitemwithcomment{Language 1}{Skill level}{Comment}
-\cvitemwithcomment{Language 2}{Skill level}{Comment}
+\input{contents/about}
+\input{contents/work_experience}
+\input{contents/education}
+\input{contents/awards}
+\input{contents/fellowships}
+\input{contents/grants}
+\input{contents/publications}
+\input{contents/presentations}
+\input{contents/projects}
+\input{contents/professional_activities}
+\input{contents/academic_activities}
+\input{contents/skills_certification}
+\input{contents/miscellaneous}
 
 \end{document}

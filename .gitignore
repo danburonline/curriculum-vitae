@@ -156,7 +156,7 @@ acs-*.bib
 *.slo
 *.sls
 
-# uncomment this for glossaries-extra (will ignore makeindex's style files!)
+# uncomment this for glossaries-extra (will ignore makeindex’s style files!)
 # *.ist
 
 # gnuplot

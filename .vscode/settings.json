@@ -1,0 +1,45 @@
+{
+  "cSpell.words": [
+    "neurointelligence",
+    "neuroengineering",
+    "Neuroinformatics",
+    "Neuroengineer",
+    "Neuroplatform",
+    "neuroethics",
+    "biohybrid",
+    "Eightsix",
+    "Substack",
+    "Agentic",
+    "cranio",
+    "WGSL"
+  ],
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "entity.other.attribute-name",
+          "entity.name.type.class",
+          "support.class.builtin",
+          "string.quoted.single",
+          "entity.name.method",
+          "constant.language",
+          "storage.modifier",
+          "keyword.control",
+          "entity.name.tag",
+          "storage.type",
+          "comment",
+          "keyword"
+        ],
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
+        }
+      }
+    ]
+  }
+}
